@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    color: #00ff99;
+  }
+  
+  header .logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  header h1 {
+    font-size: 1.5em;
+    color: #00ff99;
+  }
+  
+  .calculator {
+    width: 320px;
+    background: linear-gradient(145deg, #333, #1a1a1a);
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .display {
+    font-size: 2em;
+    color: #00ff99;
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    font-size: 1.5em;
+    color: #00ff99;
+    background: #333;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: #00cc88;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background: #008060;
+  }
+  
+  footer {
+    font-size: 0.9em;
+    color: #00ff99;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  footer a {
+    color: #00ff99;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #00cc88;
+  }
+  
+  .linkedin-icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+  }
+  
